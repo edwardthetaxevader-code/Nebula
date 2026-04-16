@@ -1,12 +1,11 @@
-[server]
-port = 8080
-wisp = true
-logging = false
-
 [marketplace]
 enabled = false
 psk = "CHANGEME"
-level = 1
+
+[server.server]
+port = 8080
+wisp = true
+logging = false
 
 [seo]
 enabled = false
